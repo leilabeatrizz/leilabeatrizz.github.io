@@ -7,6 +7,8 @@ function getMovieInfosOMDB(title){
 
         if(data.Response == 'False'){
             descriptionBodyNotFound.textContent = "Filme não encontrado! Tente novamente.";
+            remover1.textContent = ""
+            remover2.textContent = ""
             descriptionBodyNotFound.style.marginBottom = ''
             movieTitle.textContent = ""
             movieYear.textContent = ""
